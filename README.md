@@ -20,6 +20,7 @@ security assessment techniques.
 | Security Tools | Nmap / Metasploit and others |
 | Additional Work | HexStrike AI |
 | Future Networking | GNS3 |
+| Internship Verification | [📄 Internship Offer Letter (PDF)](./docs/OfferLetter_Sangharsa_Adhikari.pdf) |
 
 ## Lab Architecture
 
