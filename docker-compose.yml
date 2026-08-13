@@ -1,0 +1,39 @@
+
+networks:
+  pentest-lab:
+    name: pentest-lab
+    driver: bridge
+
+services:
+  kali:
+    container_name: networkwalks_internship
+    image: kalilinux/kali-rolling
+    stdin_open: true
+    tty: true
+    networks:
+      - pentest-lab
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./workspace:/workspace
+
+  win-target:
+    image: dockurr/windows
+    container_name: win-target
+    environment:
+      VERSION: "11"
+      RAM_SIZE: "4G"
+      CPU_CORES: "2"
+    devices:
+      - /dev/kvm
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "8006:8006"
+      - "3389:3389/tcp"
+      - "3389:3389/udp"
+    volumes:
+      - ./win_data:/storage
+    networks:
+      - pentest-lab

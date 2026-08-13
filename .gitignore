@@ -1,0 +1,27 @@
+# Ignore virtual disks, ISOs, and temp files
+*.iso
+*.qcow2
+*.vhd
+storage/
+.DS_Store
+
+# Windows container data
+win_data/
+
+# Python environments
+.venv/
+venv/
+env/
+hexstrike-env/
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs
+*.log
