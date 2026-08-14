@@ -39,3 +39,41 @@ security assessment techniques.
                           │
                    pentest-lab
                     Docker Network
+
+## Project Timeline
+
+Week	Focus	Status
+Week 1	Docker-based penetration testing lab setup	In Progress
+Week 2	To be documented	Not Started
+Week 3	To be documented	Not Started
+Week 4	To be documented	Not Started
+
+## Repository Structure
+
+networkwalks-penetration-testing-lab/
+│
+├── docker-compose.yml
+├── README.md
+├── .gitignore
+│
+├── Week-1/
+│   ├── Docker-Kali/
+│   ├── Docker-Windows/
+│   └── Optional-Work/
+│       ├── Kali-Tools/
+│       ├── HexStrike-AI/
+│       └── Network-Configuration/
+│
+├── Week-2/
+├── Week-3/
+└── Week-4/
+
+## Scope
+
+The laboratory is intended for:
+- Cybersecurity learning
+- Authorized penetration testing
+- Network security experimentation
+- Security automation
+- Vulnerability assessment
+- Network configuration and testing
