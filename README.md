@@ -44,9 +44,9 @@ security assessment techniques.
 
 Week	Focus	Status
 Week 1	Docker-based penetration testing lab setup	In Progress
-Week 2	To be documented	Not Started
-Week 3	To be documented	Not Started
-Week 4	To be documented	Not Started
+Week 2	To be documented	
+Week 3	To be documented	
+Week 4	To be documented
 
 ## Repository Structure
 
